@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9566A500280DFBEF00E1C8C5 /* StroageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566A4FF280DFBEF00E1C8C5 /* StroageManager.swift */; };
 		A85E83F5280DD14900FB6B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E83F4280DD14900FB6B82 /* AppDelegate.swift */; };
 		A85E83F7280DD14900FB6B82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E83F6280DD14900FB6B82 /* SceneDelegate.swift */; };
 		A85E83F9280DD14900FB6B82 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E83F8280DD14900FB6B82 /* TaskListViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9566A4FF280DFBEF00E1C8C5 /* StroageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StroageManager.swift; sourceTree = "<group>"; };
 		A85E83F1280DD14900FB6B82 /* CoreDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85E83F4280DD14900FB6B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A85E83F6280DD14900FB6B82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				A85E83F4280DD14900FB6B82 /* AppDelegate.swift */,
 				A85E83F6280DD14900FB6B82 /* SceneDelegate.swift */,
 				A85E83F8280DD14900FB6B82 /* TaskListViewController.swift */,
+				9566A4FF280DFBEF00E1C8C5 /* StroageManager.swift */,
 				A85E8400280DD14A00FB6B82 /* Assets.xcassets */,
 				A85E8402280DD14A00FB6B82 /* LaunchScreen.storyboard */,
 				A85E8405280DD14A00FB6B82 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A85E83F9280DD14900FB6B82 /* TaskListViewController.swift in Sources */,
+				9566A500280DFBEF00E1C8C5 /* StroageManager.swift in Sources */,
 				A85E83F5280DD14900FB6B82 /* AppDelegate.swift in Sources */,
 				A85E83F7280DD14900FB6B82 /* SceneDelegate.swift in Sources */,
 				A85E83FF280DD14900FB6B82 /* CoreDemoApp.xcdatamodeld in Sources */,
@@ -286,6 +290,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +318,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
